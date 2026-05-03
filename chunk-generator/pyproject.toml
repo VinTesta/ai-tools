@@ -1,0 +1,17 @@
+[project]
+name = "chunk-generator"
+version = "0.1.0"
+description = "Split markdown documents into chunk files and generate an AI-assisted index."
+requires-python = ">=3.10"
+dependencies = [
+  "langchain-core>=0.3.0",
+  "langchain-text-splitters>=0.3.0",
+  "langchain-deepseek>=0.1.0",
+]
+
+[project.scripts]
+chunk-generator = "chunk_generator.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

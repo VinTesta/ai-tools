@@ -1,0 +1,2 @@
+[console_scripts]
+chunk-generator = chunk_generator.cli:main

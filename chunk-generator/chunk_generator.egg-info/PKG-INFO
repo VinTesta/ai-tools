@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: chunk-generator
+Version: 0.1.0
+Summary: Split markdown documents into chunk files and generate an AI-assisted index.
+Requires-Python: >=3.10
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: langchain-text-splitters>=0.3.0
+Requires-Dist: langchain-deepseek>=0.1.0
